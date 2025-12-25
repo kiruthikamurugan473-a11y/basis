@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body {
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-container {
+            width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .gender {
+            margin-top: 5px;
+        }
+
+        .gender label {
+            display: inline;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        .button{
+            border: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HTML FORMS</h1>
+<div class="form-container">
+
+    <form>
+        <label>NAME</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>ADDRESS</label>
+        <input type="text" placeholder="Enter your address">
+
+        <label>MOBILE NUMBER</label>
+        <input type="text" placeholder="Enter your number">
+
+         <label>CITY</label>
+            <input type="text"placeholder="Enter your city">
+
+        <label>GENDER</label>
+        <div class="gender">
+            <label>
+                <input type="radio" name="gender"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender"> Female
+            </label>
+           
+        </div>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+    
+     
