@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        h1{
+            background-color: aqua;
+        }
+        P{
+            color:pink;
+            font-size: large;
+        }
+        .h2{
+            color: black;
+            font-style: italic;
+        }
+        .suki{
+            color: red;
+            font-style: italic;
+            font-size: larger;
+        }
+        #names{
+            color: blue;
+            font-size: larger;
+            font-style: initial;
+        }
+        *{
+            background-color: rgb(0, 0, 0); 
+            font-family: Arial; 
+            margin: 10px; 
+        }
+        ul,ol,h3
+        {
+          font-family: Arial, Helvetica, sans-serif;
+          color: brown;
+          margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Element selector example-->
+    <h1>Element Selectors</h1>
+    <p>Targets all instances of a specific HTML tag (e.g., h1, p, img).</p>
+
+        <!--class selector-->
+       <h2>Targets elements that have a specific class attribute.
+Defined in CSS using a dot (.) followed by the class name (e.g., .text)</h2>
+
+<ul class="suki">
+    <li>smart</li>
+    <li>straight hair</li>
+    <li>normal skin</li>
+</ul>
+
+      <!--id selector-->
+      <ol id="names">
+        <li>kiruthika</li>
+        <li>kalai</li>
+        <li>suki</li>
+      </ol>
+
+      <!--Universal selector-->
+      <h1>Targets all elements on the webpage.
+Defined in CSS using an asterisk (*)</h1>
+
+<p>Useful for applying global styles like default font family or margin.</p>
+
+
+<!--Group selector-->
+<ul>
+    <li>H1 TAGS</li>
+    <li>Paragraph tags</li>
+    <li>images tag</li>
+</ul>
+<ol>
+    <li>anchor tag</li>
+    <li>arc tag</li>
+    <li>source</li>
+</ol>
+<h3>kiruthikamurugan</h3>
+    
+</body>
+</html>
